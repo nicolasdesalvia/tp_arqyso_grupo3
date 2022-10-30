@@ -1,0 +1,12 @@
+version: "3"
+services:
+    nginx:
+      container_name: tp_nginx
+      build: .
+      restart: always
+      ports:
+        - "90:80"
+      volumes:
+        - "./tp-vol:/var/www/html"
+volumes:
+  tp-vol:
