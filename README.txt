@@ -9,7 +9,7 @@ The first command to run is:
 docker-compose build
 
 The next one, once docker-compose build had run:
-docker-compose up
+docker-compose up -d
 
 And thats it! everything should be working properly.
 We expect you have a good experience whit this project, and hope it be useful for you! See you next time!
