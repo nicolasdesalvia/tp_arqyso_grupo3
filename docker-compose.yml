@@ -7,6 +7,6 @@ services:
       ports:
         - "90:80"
       volumes:
-        - "./tp-vol:/var/www/html"
+        - "tp-vol:/var/www/html"
 volumes:
   tp-vol:
